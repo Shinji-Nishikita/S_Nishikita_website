@@ -2,8 +2,8 @@
 
 function App() {
   return (
-    <div className="App">
-      Hello!
+    <div>
+      Shinji Nishikita
     </div>
   );
 }
