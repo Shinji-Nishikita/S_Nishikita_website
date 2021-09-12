@@ -1,9 +1,7 @@
-
-
 function App() {
   return (
-    <div>
-      Shinji Nishikita
+    <div className="app">
+      Hello
     </div>
   );
 }
