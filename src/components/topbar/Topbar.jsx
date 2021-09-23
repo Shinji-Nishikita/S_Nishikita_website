@@ -8,6 +8,7 @@ export default function Topbar() {
                     <div className="wrapper">
                         <div className="left">
                             <a href="#intro">abcde</a>
+                        <h1>Hey!</h1>
                         </div>
                         <div className="right"></div>
                     </div>
