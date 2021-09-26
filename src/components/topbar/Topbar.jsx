@@ -5,15 +5,12 @@ export default function Topbar() {
         <div className="topbar">
             <div className="wrapper">
                 <div className="left">
-                    <div className="wrapper">
-                        <div className="left">
-                            <a href="#intro">abcde</a>
-                        <h1>Hey!</h1>
-                        </div>
-                        <div className="right"></div>
-                    </div>
+                    <a href="#intro">abcde</a>
                 </div>
-                <div className="right"></div>
+                <h1>Hey!</h1>
+                <div className="right">
+                    Here is right
+                </div>
             </div>
         </div>
     )
