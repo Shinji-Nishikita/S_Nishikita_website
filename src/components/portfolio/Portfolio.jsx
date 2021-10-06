@@ -1,27 +1,35 @@
 import { useState, useEffect } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
-import "./portfolio.scss"
+import "./portfolio.scss";
+import { mobilePortfolio, webPortfolio } from "../../data.js";
 
 export default function Portfolio() {
-    const [selected, setSelected] = useState("featured");
+    const [selected, setSelected] = useState("Mobile-App");
+    const [data, setData] = useState([]);
     const list = [
         {
-            id: "featured",
-            title: "Featured"
+            id: "mobile-app",
+            title: "Mobile-App"
         },
         {
-            id: "matching app",
-            title: "Matching App"
-        },
-        {
-            id: "game app",
-            title: "Game App"
-        },
-        {
-            id: "bot app",
-            title: "Bot App"
+            id: "web-app",
+            title: "Web-App"
         },
     ];
+
+    useEffect(() => {
+
+        switch (selected) {
+            case "mobile-app":
+                setData(mobilePortfolio);
+                break;
+            case "web-app":
+                setData(webPortfolio);
+                break;
+            default:
+                setData(mobilePortfolio);
+        }
+    },[selected])
 
     return (
 
@@ -37,19 +45,16 @@ export default function Portfolio() {
                 )}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
-                    <h3>YomiHomies</h3>
+                {data.map(data => (
+                    <div className="item">
+                        <img
+                            src={data.img}
+                            alt=""
+                        />
+                    <h3>{data.title}</h3>
                 </div>
-                <div className="item">
-                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
-                    <h3>YomiHomies</h3>
-                </div>
-                <div className="item">
-                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
-                    <h3>YomiHomies</h3>
-                </div>
+                ))}
             </div>
         </div>
-    )
+    );
 }
