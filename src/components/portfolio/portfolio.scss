@@ -16,18 +16,6 @@
     list-style: none;
     display: flex;
     cursor: pointer;
-
-    li {
-      font-size: 14px;
-      margin-right: 50px;
-      padding: 7px;
-      border-radius: 10px;
-
-      &.active {
-        background-color: $mainColor;
-        color: white;
-      }
-    }
   }
 
   .container {
