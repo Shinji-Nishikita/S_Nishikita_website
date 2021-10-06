@@ -51,8 +51,8 @@ export default function Portfolio() {
                             src={data.img}
                             alt=""
                         />
-                    <h3>{data.title}</h3>
-                </div>
+                        <h3>{data.title}</h3>
+                    </div>
                 ))}
             </div>
         </div>
