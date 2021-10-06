@@ -9,11 +9,11 @@ export default function Portfolio() {
     const list = [
         {
             id: "mobile-app",
-            title: "Mobile-App"
+            title: "📱Mobile-App"
         },
         {
             id: "web-app",
-            title: "Web-App"
+            title: "🖥Web-App"
         },
     ];
 
