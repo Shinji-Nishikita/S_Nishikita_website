@@ -12,7 +12,15 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 <div className="item">
-                    {/* <img src="" alt="" /> */}
+                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
+                    <h3>YomiHomies</h3>
+                </div>
+                <div className="item">
+                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
+                    <h3>YomiHomies</h3>
+                </div>
+                <div className="item">
+                    <img src="https://i.ibb.co/MGsf3mK/YH-Logo-blue.png" alt="" />
                     <h3>YomiHomies</h3>
                 </div>
             </div>
