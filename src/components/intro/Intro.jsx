@@ -11,14 +11,14 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Developer", "Sales", "Dancer"],
+            strings: ["Software Engineer.", "Sales.", "Street Dancer."],
         });
     }, []);
 
     return (
         <div className="intro" id="intro">
             <div className="left">
-                    <img src="assets/IMG_2383 11.jpg" alt="" />
+                    <img src="assets/IMG_0334 3.jpg" alt="" />
             </div>
             <div className="right">
                 <div className="wrapper">
