@@ -16,27 +16,6 @@
     img {
       height: 100%;
     }
-
-    // .imgContainer {
-    //   width: 700px;
-    //   height: 700px;
-    //   display: flex;
-    //   align-items: flex-end;
-    //   justify-content: center;
-    //   float: right;
-
-    //   @include mobile {
-    //     align-items: flex-start;
-    //   }
-
-    //   img {
-    //     height: 90%;
-
-    //     @include mobile {
-    //       height: 50%;
-    //     }
-    //   }
-    // }
   }
 
   .right {
@@ -64,9 +43,6 @@
           font-size: 40px;
         }
       }
-      // h2 {
-      //   font-size: 35px;
-      // }
       h2 {
         font-size: 35px;
 
@@ -90,22 +66,6 @@
           100% {
             opacity: 0;
           }
-        }
-      }
-    }
-    a {
-      position: absolute;
-      bottom: 10px;
-      left: 33%;
-
-      img {
-        width: 50px;
-        animation: arrowBlink 2s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
         }
       }
     }

@@ -6,7 +6,6 @@ export default function Intro() {
     const textRef = useRef();
 
     useEffect(() => {
-        // console.log(textRef.current)
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
@@ -25,9 +24,6 @@ export default function Intro() {
                     <h1>Shinji Nishikita</h1>
                     <h2>I'm a <span ref={textRef}></span></h2>
                 </div>
-                <a href="portfolio">
-                    <img src="assets/down.png" alt="" />
-                </a>
             </div>
         </div>
     )
