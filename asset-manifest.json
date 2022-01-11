@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/S_Nishikita_website/static/css/main.688ac9c2.chunk.css",
-    "main.js": "/S_Nishikita_website/static/js/main.86884a62.chunk.js",
-    "main.js.map": "/S_Nishikita_website/static/js/main.86884a62.chunk.js.map",
+    "main.js": "/S_Nishikita_website/static/js/main.c70f2dc0.chunk.js",
+    "main.js.map": "/S_Nishikita_website/static/js/main.c70f2dc0.chunk.js.map",
     "runtime-main.js": "/S_Nishikita_website/static/js/runtime-main.3845095e.js",
     "runtime-main.js.map": "/S_Nishikita_website/static/js/runtime-main.3845095e.js.map",
     "static/js/2.3d8b8022.chunk.js": "/S_Nishikita_website/static/js/2.3d8b8022.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3845095e.js",
     "static/js/2.3d8b8022.chunk.js",
     "static/css/main.688ac9c2.chunk.css",
-    "static/js/main.86884a62.chunk.js"
+    "static/js/main.c70f2dc0.chunk.js"
   ]
 }
