@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/S_Nishikita_website/static/css/main.688ac9c2.chunk.css",
-    "main.js": "/S_Nishikita_website/static/js/main.c70f2dc0.chunk.js",
-    "main.js.map": "/S_Nishikita_website/static/js/main.c70f2dc0.chunk.js.map",
-    "runtime-main.js": "/S_Nishikita_website/static/js/runtime-main.3845095e.js",
-    "runtime-main.js.map": "/S_Nishikita_website/static/js/runtime-main.3845095e.js.map",
-    "static/js/2.3d8b8022.chunk.js": "/S_Nishikita_website/static/js/2.3d8b8022.chunk.js",
-    "static/js/2.3d8b8022.chunk.js.map": "/S_Nishikita_website/static/js/2.3d8b8022.chunk.js.map",
-    "index.html": "/S_Nishikita_website/index.html",
-    "static/css/main.688ac9c2.chunk.css.map": "/S_Nishikita_website/static/css/main.688ac9c2.chunk.css.map",
-    "static/js/2.3d8b8022.chunk.js.LICENSE.txt": "/S_Nishikita_website/static/js/2.3d8b8022.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.688ac9c2.chunk.css",
+    "main.js": "/static/js/main.c70f2dc0.chunk.js",
+    "main.js.map": "/static/js/main.c70f2dc0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e389d18a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e389d18a.js.map",
+    "static/js/2.3d8b8022.chunk.js": "/static/js/2.3d8b8022.chunk.js",
+    "static/js/2.3d8b8022.chunk.js.map": "/static/js/2.3d8b8022.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.688ac9c2.chunk.css.map": "/static/css/main.688ac9c2.chunk.css.map",
+    "static/js/2.3d8b8022.chunk.js.LICENSE.txt": "/static/js/2.3d8b8022.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3845095e.js",
+    "static/js/runtime-main.e389d18a.js",
     "static/js/2.3d8b8022.chunk.js",
     "static/css/main.688ac9c2.chunk.css",
     "static/js/main.c70f2dc0.chunk.js"
