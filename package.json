@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio-website",
   "version": "0.1.0",
+  "homepage": "https://shinji-nishikita.github.io/S_Nishikita_website/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "deploy": "react-scripts build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

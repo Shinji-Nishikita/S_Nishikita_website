@@ -18,7 +18,7 @@ export default function Intro() {
     return (
         <div className="intro" id="intro">
             <div className="left">
-                    <img src="assets/IMG_0334 3.jpg" alt="" />
+                    <img src="https://github.com/Shinji-Nishikita/S_Nishikita_website/blob/master/public/assets/IMG_0334.JPG?raw=true" alt="" />
             </div>
             <div className="right">
                 <div className="wrapper">

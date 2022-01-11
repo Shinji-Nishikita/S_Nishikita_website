@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
-import { mobilePortfolio, webPortfolio } from "../../data.js";
+import { mobilePortfolio } from "../../data.js";
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("Mobile-App");
@@ -23,8 +23,8 @@ export default function Portfolio() {
             case "mobile-app":
                 setData(mobilePortfolio);
                 break;
-            case "web-app":
-                setData(webPortfolio);
+            case "mobile-app":
+                setData(mobilePortfolio);
                 break;
             default:
                 setData(mobilePortfolio);
@@ -35,15 +35,6 @@ export default function Portfolio() {
 
         <div className="portfolio" id="portfolio">
             <h1>My Portfolio</h1>
-            <ul>
-                {list.map((item) =>
-                (<PortfolioList
-                    id={item.id}
-                    title={item.title}
-                    active={selected === item.id}
-                    setSelected={setSelected} />)
-                )}
-            </ul>
             <div className="container">
                 {data.map(data => (
                     <div className="item">

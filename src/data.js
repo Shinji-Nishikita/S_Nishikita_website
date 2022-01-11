@@ -2,7 +2,7 @@ export const mobilePortfolio = [
     {
         id: 1,
         title: "Pizzagram",
-        img: "https://i.ibb.co/SwQmGpN/apple-touch-icon.png"
+        img: "https://i.ibb.co/tXK6Sn7/apple-touch-icon.png"
     },
     {
         id: 2,
@@ -14,11 +14,8 @@ export const mobilePortfolio = [
         title: "Blastoise",
         img: "https://i.ibb.co/JFk8Rr7/Blastoise.png"
     },
-];
-
-export const webPortfolio = [
     {
-        id: 1,
+        id: 4,
         title: "Hacking-Time-Bot",
         img: "https://i.ibb.co/jTctLNj/Hacking-Time-Bot.png"
     },
