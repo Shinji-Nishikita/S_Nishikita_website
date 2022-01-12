@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/S_Nishikita_website/static/css/main.652c1c32.chunk.css",
-    "main.js": "/S_Nishikita_website/static/js/main.a8b8765c.chunk.js",
-    "main.js.map": "/S_Nishikita_website/static/js/main.a8b8765c.chunk.js.map",
+    "main.css": "/S_Nishikita_website/static/css/main.fa534d5d.chunk.css",
+    "main.js": "/S_Nishikita_website/static/js/main.d9580938.chunk.js",
+    "main.js.map": "/S_Nishikita_website/static/js/main.d9580938.chunk.js.map",
     "runtime-main.js": "/S_Nishikita_website/static/js/runtime-main.3845095e.js",
     "runtime-main.js.map": "/S_Nishikita_website/static/js/runtime-main.3845095e.js.map",
-    "static/js/2.3487380c.chunk.js": "/S_Nishikita_website/static/js/2.3487380c.chunk.js",
-    "static/js/2.3487380c.chunk.js.map": "/S_Nishikita_website/static/js/2.3487380c.chunk.js.map",
+    "static/js/2.f34230c6.chunk.js": "/S_Nishikita_website/static/js/2.f34230c6.chunk.js",
+    "static/js/2.f34230c6.chunk.js.map": "/S_Nishikita_website/static/js/2.f34230c6.chunk.js.map",
     "index.html": "/S_Nishikita_website/index.html",
-    "static/css/main.652c1c32.chunk.css.map": "/S_Nishikita_website/static/css/main.652c1c32.chunk.css.map",
-    "static/js/2.3487380c.chunk.js.LICENSE.txt": "/S_Nishikita_website/static/js/2.3487380c.chunk.js.LICENSE.txt"
+    "static/css/main.fa534d5d.chunk.css.map": "/S_Nishikita_website/static/css/main.fa534d5d.chunk.css.map",
+    "static/js/2.f34230c6.chunk.js.LICENSE.txt": "/S_Nishikita_website/static/js/2.f34230c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3845095e.js",
-    "static/js/2.3487380c.chunk.js",
-    "static/css/main.652c1c32.chunk.css",
-    "static/js/main.a8b8765c.chunk.js"
+    "static/js/2.f34230c6.chunk.js",
+    "static/css/main.fa534d5d.chunk.css",
+    "static/js/main.d9580938.chunk.js"
   ]
 }
