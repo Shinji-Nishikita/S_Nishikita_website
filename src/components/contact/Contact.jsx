@@ -12,9 +12,6 @@ export default function Contact() {
   const userID = process.env.REACT_APP_USER_ID;
   const serviceID = process.env.REACT_APP_SERVICE_ID;
   const templateID = process.env.REACT_APP_TEMPLATE_ID;
-  console.log("userID is", userID)
-  console.log("serviceID is", serviceID)
-  console.log("templateID is", templateID)
 
   const sendMail = () => {
     if (userID !== undefined && serviceID !== undefined && templateID !== undefined) init(userID);
