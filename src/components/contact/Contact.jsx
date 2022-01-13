@@ -106,22 +106,3 @@ export default function Contact() {
     </div>
   )
 }
-
-// return (
-//         <div className="contact" id="contact">
-//             <div className="left">
-//                 <img src="https://github.com/Shinji-Nishikita/S_Nishikita_website/blob/master/public/assets/IMG_3466.jpg?raw=true" alt="" />
-//             </div>
-//             <div className="right">
-//                 <h2>Contact</h2>
-//                 <form >
-//                     <input type="text" placeholder="Name" />
-//                     <input type="text" placeholder="Email" />
-//                     <textarea placeholder="Message"></textarea>
-//                     <button type="submit">Send</button>
-//                     {message && <span>Thanks, I'll reply ASAP!</span>}
-//                 </form>
-//             </div>
-//         </div>
-// )
-// }
