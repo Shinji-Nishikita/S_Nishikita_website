@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://shinji-nishikita.github.io/S_Nishikita_website/",
+  "homepage": "https://shinji-nishikita.github.io/myspace/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
